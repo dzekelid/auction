@@ -1,5 +1,4 @@
 ---
----
 name: eBay
 description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
   goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds
@@ -16,7 +15,18 @@ created: "2018-02-24"
 modified: "2018-02-24"
 url: https://raw.githubusercontent.com/streamdata-gallery/auction/master/_listings/ebay/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ebay
+  description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
+    goods, digital cameras, baby items, coupons, and everything else on eBay, the
+    worlds online marketplace
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  humanURL: ""
+  baseURL: https://api.ebay.com//
+  tags: Auction
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/auction/master/_listings/ebay/order-orderid-shipping-fulfillment-fulfillmentid-get.md
 x-common:
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
@@ -35,6 +45,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
